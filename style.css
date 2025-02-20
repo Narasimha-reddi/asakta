@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #582323;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header img {
+    float: left;
+    width: 120px;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#home.hero {
+    background: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#home .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 3.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    padding: 12px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 350px;
+}
+
+.search-button {
+    background-color: #b25a17;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.search-button:hover {
+    background-color: #e65c00;
+}
+
+
+.about {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#services.services {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#services h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#services p {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.contact form button:hover {
+    background-color: #45a049;
+}
+
+.ceo {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.ceo blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+    color:#333;
+    border-left: 5px solid #ff6f00;
+    padding-left: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.ceo footer {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #d2cece;
+}
+
+#partner {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#partner .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+#partner h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.partner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.partner p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.5;
+}
+#telecom-partners {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+ }
+#telecom-partners h2 {
+    margin-bottom: 50px;
+    font-size: 2.5em;
+} 
+
+#telecom-partners .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+#telecom-partners .container img {
+    max-width: 150px;
+    height: auto;
+}
+  
+  
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
